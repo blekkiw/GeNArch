@@ -14,6 +14,9 @@ The scripts are designed with the assumption that at least `sudo` is installed a
 Script descriptions
 -------------------
 
+### 000 - Starter
+This script allows you to run other scripts from one place.
+
 ### 001 - Post Install
 This script installs the bare minimum set of packages required for basic system functionality. The packages I believe should ideally be part of the base system. This includes `less`, `curl`, `git`, as well as various drivers for hardware.
 
