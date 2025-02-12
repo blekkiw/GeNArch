@@ -189,6 +189,7 @@ aur_packages=(
     sane
     intel-ucode
     amd-ucode
+    cronie
 )
 
 if ! yay -S --needed "${aur_packages[@]}"; then
