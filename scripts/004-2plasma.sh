@@ -39,6 +39,7 @@ plasma_packages=(
     xdg-utils
     kde-gtk-config           # GTK apps configuration
     kio                    # KDE Input/Output library
+    kdialog                # KDE dialog boxes
 )
 
 # Additional useful packages

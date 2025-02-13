@@ -43,6 +43,7 @@ aur_packages=(
     kate
     xdg-desktop-portal
     xdg-desktop-portal-hyprlandc
+    xdg-desktop-portal-wlr
     shared-mime-info
     xdg-utils
     okular
