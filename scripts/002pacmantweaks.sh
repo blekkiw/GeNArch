@@ -39,6 +39,11 @@ if grep -q '^#ParallelDownloads' /etc/pacman.conf; then
     sudo sed -i 's/^#ParallelDownloads/ParallelDownloads/' /etc/pacman.conf
 fi
 
+# Enable Colors if commented
+if grep -q '^#Color' /etc/pacman.conf; then
+    sudo sed -i 's/^#Color/Color/' /etc/pacman.conf
+fi
+
 # Add ILoveCandy if not present
 if ! grep -q '^ILoveCandy' /etc/pacman.conf; then
     # Add after any existing Misc options line

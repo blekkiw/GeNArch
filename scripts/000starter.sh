@@ -142,7 +142,7 @@ main_menu() {
                 ;;
             *)
                 echo -e "${RED}Invalid option${NC}"
-                read -p "Press Enter to continue..."
+                read -p "Press Enter to continue... "
                 ;;
         esac
     done
