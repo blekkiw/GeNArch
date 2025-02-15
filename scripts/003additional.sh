@@ -184,7 +184,6 @@ aur_packages=(
     system-config-printer
     hplip
     python-pillow
-    python-pyqt5
     python-reportlab
     sane
     intel-ucode
@@ -196,5 +195,7 @@ if ! yay -S --needed "${aur_packages[@]}"; then
     echo "Error installing AUR packages"
     exit 1
 fi
+
+sudo systemctl enable --now cronie
 
 echo "Installation completed successfully"

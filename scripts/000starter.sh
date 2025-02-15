@@ -16,6 +16,7 @@ SCRIPTS=(
     "004-2plasma.sh"
     "005software.sh"
     "006plymouth.sh"
+    "007posttweaks.sh"
 )
 
 # Script descriptions
@@ -27,6 +28,7 @@ DESCRIPTIONS=(
     "KDE Plasma Installation"
     "Software Installation"
     "Plymouth Setup"
+    "Post-Installation Tweaks"
 )
 
 # Print welcome message
