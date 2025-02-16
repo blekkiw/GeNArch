@@ -67,11 +67,14 @@ aur_packages=(
     discord
     vlc
     zoom
+    syncthing
 )
 
 if ! yay -S --needed "${aur_packages[@]}"; then
     echo "Error installing additional packages"
     exit 1
 fi
+
+systemctl enable --now --user syncthing
 
 echo "Installation completed successfully"
