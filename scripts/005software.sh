@@ -30,6 +30,10 @@ aur_packages=(
     thunderbird
     intellij-idea-ultimate-edition 
     dbeaver
+    fastfetch
+    filezilla
+    tree
+    xclip
     spotify-launcher
     slack-desktop-wayland 
     telegram-desktop 
