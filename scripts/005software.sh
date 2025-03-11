@@ -72,6 +72,8 @@ aur_packages=(
     vlc
     zoom
     syncthing
+    ufw
+    percona-server-clients
 )
 
 if ! yay -S --needed "${aur_packages[@]}"; then
@@ -80,5 +82,9 @@ if ! yay -S --needed "${aur_packages[@]}"; then
 fi
 
 systemctl enable --now --user syncthing
+
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw enable
 
 echo "Installation completed successfully"
